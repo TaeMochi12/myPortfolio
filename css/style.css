@@ -84,8 +84,9 @@ section{
     width: 28vw;
     height: 65vh;
     animation: floatImage 4s ease-in-out infinite;
-    border-radius: 12rem;
-    box-shadow: 8px 15px 25px var(--main-color);
+    border-radius: 2rem;
+    box-shadow: 2px 6px 25px var(--main-color);
+    object-fit:cover;
 }
 
 @keyframes floatImage {
@@ -172,8 +173,9 @@ span{
 .about-img img{
     width: 28vw;
     height: 65vh;
-    border-radius: 10rem;
-    box-shadow: 8px 15px 25px var(--main-color);
+    border-radius: 2rem;
+    box-shadow: 2px 1px 25px var(--main-color);
+    object-fit:cover;
 }
 
 .heading{
@@ -464,8 +466,9 @@ span{
     }
 
     .home-img img{
-        width: 50vw;
+        width: 80vw;
         margin-top: 4rem;
+        box-shadow: 2px 2px 25px var(--main-color);
     }
 
     .about{
@@ -475,6 +478,7 @@ span{
     .about img{
         width: 50vw;
         margin-top: 4rem;
+        box-shadow: 1px 1px 25px var(--main-color);
     }
 
     .services h2{
@@ -511,7 +515,7 @@ span{
 @media (max-width:365px)
 {
     .home-img img{
-        width: 90vw;
+        width: 80vw;
     }
 
     .about-img img{
