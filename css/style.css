@@ -84,6 +84,8 @@ section{
     width: 28vw;
     height: 65vh;
     animation: floatImage 4s ease-in-out infinite;
+    border-radius: 12rem;
+    box-shadow: 8px 15px 25px var(--main-color);
 }
 
 @keyframes floatImage {
@@ -170,6 +172,8 @@ span{
 .about-img img{
     width: 28vw;
     height: 65vh;
+    border-radius: 10rem;
+    box-shadow: 8px 15px 25px var(--main-color);
 }
 
 .heading{
